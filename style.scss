@@ -1,6 +1,6 @@
 body {
-  background-color: gray;
-  min-height: 200vh;
+  // background-color: gray;
+  // min-height: 200vh;
 }
 
 .carousel-inner,
@@ -11,4 +11,12 @@ body {
 .carousel-item img {
   height: 100%;
   object-fit: cover;
+}
+
+// TODO: to remove
+.carousel-caption {
+  border: 1px solid #fff;
+}
+
+.products {
 }
