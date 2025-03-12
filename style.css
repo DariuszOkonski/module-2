@@ -22,4 +22,10 @@
 
 .info {
   background-color: #edf1f3;
+}
+
+.info ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
