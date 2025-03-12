@@ -18,4 +18,8 @@
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.info {
+  background-color: #edf1f3;
 }/*# sourceMappingURL=style.css.map */
