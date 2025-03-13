@@ -1,11 +1,10 @@
-body {
-  // background-color: gray;
-  // min-height: 200vh;
-}
-
-// variables
+// VARIABLES
 $alpha: 0.7;
+$color-white: #fff;
+$color-secondary: #edf1f3;
+$color-tertiary: #cfdbdf;
 
+// GENERAL
 .small-header {
   text-transform: uppercase;
   font-weight: 100;
@@ -19,9 +18,10 @@ $alpha: 0.7;
   font-family: 'Times New Roman', Times, serif;
 
   margin-bottom: 40px;
-  color: #fff;
+  color: $color-white;
 }
 
+// SPECIFIC
 .carousel-inner,
 .carousel-item {
   height: 100vh;
@@ -56,12 +56,12 @@ $alpha: 0.7;
 }
 
 .info {
-  background-color: #edf1f3;
+  background-color: $color-secondary;
   border: none;
 }
 
 .footer {
-  background-color: #cfdbdf;
+  background-color: $color-tertiary;
 }
 
 .info,
