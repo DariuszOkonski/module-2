@@ -24,11 +24,18 @@
   background-color: #edf1f3;
   border: none;
 }
-.info ul {
+
+.footer {
+  background-color: #cfdbdf;
+}
+
+.info ul,
+.footer ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-.info a {
+.info a,
+.footer a {
   text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

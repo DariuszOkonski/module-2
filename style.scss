@@ -27,13 +27,19 @@ body {
 .info {
   background-color: #edf1f3;
   border: none;
+}
 
+.footer {
+  background-color: #cfdbdf;
+}
+
+.info,
+.footer {
   ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
   }
-
   a {
     text-decoration: none;
   }
