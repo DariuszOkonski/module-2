@@ -26,11 +26,15 @@ body {
 
 .info {
   background-color: #edf1f3;
-  // border: none;
-}
+  border: none;
 
-.info ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
 }
