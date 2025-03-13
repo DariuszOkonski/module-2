@@ -3,6 +3,9 @@ body {
   // min-height: 200vh;
 }
 
+// variables
+$alpha: 0.7;
+
 .carousel-inner,
 .carousel-item {
   height: 100vh;
@@ -20,6 +23,9 @@ body {
   height: 260px;
   width: 500px;
 
+  background-color: rgba(0, 0, 0, $alpha);
+  border-radius: 5px;
+
   .small-header {
     text-transform: uppercase;
     font-weight: 100;
@@ -34,6 +40,12 @@ body {
 
     margin-bottom: 40px;
   }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, $alpha);
+  border-radius: 5px;
 }
 
 .card img {
