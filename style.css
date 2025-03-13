@@ -10,7 +10,23 @@
 }
 
 .carousel-caption {
-  border: 1px solid #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 260px;
+  width: 500px;
+}
+.carousel-caption .small-header {
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+.carousel-caption .large-header {
+  font-size: 52px;
+  letter-spacing: 2px;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 40px;
 }
 
 .card img {
